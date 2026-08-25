@@ -64,4 +64,4 @@ Do not file site bugs, accounts, payments, or moderation here.
 
 ## Security
 
-Report vulnerabilities by email to **hello@vary3d.com**. Do not open a public issue with a proof of concept.
+Report vulnerabilities by email to **security@vary3d.com**. Do not open a public issue with a proof of concept.
