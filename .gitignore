@@ -1,0 +1,66 @@
+# macOS
+**/.DS_Store
+**/._*
+**/.AppleDouble
+**/.LSOverride
+**/.DocumentRevisions-V100
+**/.fseventsd
+**/.Spotlight-V100
+**/.TemporaryItems
+**/.Trashes
+**/.VolumeIcon.icns
+**/.com.apple.timemachine.donotpresent
+**/.AppleDB
+**/.AppleDesktop
+
+# Linux
+**/.directory
+**/.Trash-*
+**/.nfs*
+
+# Windows
+**/Thumbs.db
+**/Thumbs.db:encryptable
+**/ehthumbs.db
+**/desktop.ini
+
+# Editors / local tools
+**/.idea
+**/.idea/
+**/.vscode
+**/.vscode/
+**/.vs
+**/.vs/
+**/.cursor
+**/.cursor/
+**/.history
+**/.history/
+**/.swp
+**/.*.swp
+
+# Local agent skill installs
+**/.agents
+**/.agents/
+**/.claude
+**/.claude/
+**/.codex
+**/.codex/
+
+# OpenSCAD / Vary3D generator scratch
+**/.openscad-iter
+**/.openscad-iter/
+**/.openscad-preview
+**/.openscad-preview/
+**/.vary3d-iter
+**/.vary3d-iter/
+
+# Secrets / local env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node / Python local installs
+**/node_modules
+**/node_modules/
+**/.venv
+**/.venv/

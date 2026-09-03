@@ -1,0 +1,133 @@
+{
+  "format": "vary3d.variants",
+  "version": 1,
+  "files": {
+    "model.scad": [
+      {
+        "name": "Standard",
+        "description": "Default box height.",
+        "cover": "covers/standard.png",
+        "params": {
+          "body_z": 47
+        }
+      },
+      {
+        "name": "Tall",
+        "description": "1.5× body height, matching the upstream tall variant.",
+        "cover": "covers/tall.png",
+        "params": {
+          "body_z": 70.5
+        }
+      }
+    ],
+    "battery-organizer.scad": [
+      {
+        "name": "AA",
+        "description": "AA cells. Default well diameter.",
+        "cover": "covers/aa.png",
+        "params": {
+          "battery": "aa"
+        }
+      },
+      {
+        "name": "AAA",
+        "description": "AAA cells. Smaller wells, more pockets.",
+        "cover": "covers/aaa.png",
+        "params": {
+          "battery": "aaa"
+        }
+      },
+      {
+        "name": "18650",
+        "description": "18650 cells. Larger wells, fewer pockets.",
+        "cover": "covers/18650.png",
+        "params": {
+          "battery": "18650"
+        }
+      }
+    ],
+    "generic-organizer.scad": [
+      {
+        "name": "1x2",
+        "description": "One row of two pockets. Long parts or pens.",
+        "cover": "covers/1x2.png",
+        "params": {
+          "grid_x": 1,
+          "grid_y": 2
+        }
+      },
+      {
+        "name": "2x2",
+        "description": "Four pockets. Matches the upstream 2×2 divider.",
+        "cover": "covers/2x2.png",
+        "params": {
+          "grid_x": 2,
+          "grid_y": 2
+        }
+      },
+      {
+        "name": "2x3",
+        "description": "Six pockets. Screws and small hardware.",
+        "cover": "covers/2x3.png",
+        "params": {
+          "grid_x": 2,
+          "grid_y": 3
+        }
+      },
+      {
+        "name": "3x3",
+        "description": "Nine pockets. Components and beads.",
+        "cover": "covers/3x3.png",
+        "params": {
+          "grid_x": 3,
+          "grid_y": 3
+        }
+      }
+    ],
+    "bit-organizer.scad": [
+      {
+        "name": "1/4 in short",
+        "description": "1/4 in hex bits, ~25 mm. Fits the default box height.",
+        "cover": "covers/1-4-in-short.png",
+        "params": {
+          "bit": "hex_1_4_short"
+        }
+      },
+      {
+        "name": "1/4 in long",
+        "description": "1/4 in hex bits, ~50 mm. Tall box so the bits stay under the lip. A full tray should not take a box on top if bits sit proud.",
+        "cover": "covers/1-4-in-long.png",
+        "params": {
+          "bit": "hex_1_4_long",
+          "body_z": 70.5
+        }
+      }
+    ],
+    "sd-organizer.scad": [
+      {
+        "name": "SD",
+        "description": "Full-size SD slots. Count follows the box footprint.",
+        "cover": "covers/sd.png",
+        "params": {
+          "card": "sd"
+        }
+      },
+      {
+        "name": "microSD",
+        "description": "microSD (TF) slots. Count follows the box footprint.",
+        "cover": "covers/microsd.png",
+        "params": {
+          "card": "microsd"
+        }
+      },
+      {
+        "name": "Mixed",
+        "description": "SD columns plus a microSD (TF) strip. Drops an SD column rather than growing the box.",
+        "cover": "covers/mixed.png",
+        "params": {
+          "card": "mixed"
+        }
+      }
+    ]
+  }
+}

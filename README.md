@@ -25,7 +25,7 @@ Each entry is a curated fork of permissively licensed work (MIT, Apache, CC-BY, 
 One directory per model:
 
 ```text
-packages/<slug>/
+models/<slug>/
   model.scad        # entry file
   info.json         # listing (format: vary3d.info)
   variants.json     # official presets (when there are ≥2 useful sets)
@@ -33,7 +33,7 @@ packages/<slug>/
   ORIGIN.md         # Forked from URL, original author, what we changed
 ```
 
-`info.json` uses `"format": "vary3d.info"`. `variants.json` uses `"format": "vary3d.variants"`. Field docs will live in `vary3d/spec` when that repo is published.
+This catalog git tree uses `models/<slug>/`. Folder contents follow [vary3d/spec](https://github.com/vary3d/spec) (`info.json`, `variants.json`); Import from folder does not care what the parent directory is called.
 
 ## License and attribution
 
@@ -48,13 +48,13 @@ On the site, the same facts show as **Forked from** / license on the model page.
 
 1. Open the matching listing on [vary3d.com](https://vary3d.com) (Library filter).
 2. Drag parameters, pick an official preset if you want, export STL or 3MF.
-3. To work from git: clone this repo and open `packages/<slug>/model.scad` in OpenSCAD or in Vary3D Playground.
+3. To work from git: clone this repo and open `models/<slug>/model.scad` in OpenSCAD or in Vary3D Playground.
 
 No install is required to customize on the site. The in-browser runtime is VarySCAD (Manifold mesh + WebGL preview). That engine is not sourced from this repository.
 
 ## Status
 
-This catalog is being filled as each model’s license and origin are checked. Empty `packages/` means nothing has passed that bar yet.
+This catalog is being filled as each model’s license and origin are checked.
 
 ## Issues
 

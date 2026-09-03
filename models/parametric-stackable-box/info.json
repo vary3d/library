@@ -1,0 +1,19 @@
+{
+  "format": "vary3d.info",
+  "version": 1,
+  "sourceLocale": "en",
+  "slug": "parametric-stackable-box",
+  "name": "Parametric Stackable Box",
+  "description": "Stackable storage box with a lip that nests into the box below, plus battery, grid-divider, hex-bit, and SD-card inserts.",
+  "category": "practical_gadgets",
+  "tags": ["box", "stackable", "organizer"],
+  "license": "MIT",
+  "originType": "fork",
+  "sourceUrl": "https://github.com/likeablob/parametric-stackable-box",
+  "originalAuthor": "likeablob",
+  "sourceLicense": "MIT",
+  "attribution": "Forked from likeablob/parametric-stackable-box (MIT).",
+  "engineType": "openscad",
+  "entry": "model.scad",
+  "cover": "cover.png"
+}
